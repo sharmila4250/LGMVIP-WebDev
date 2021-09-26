@@ -1,0 +1,234 @@
+*{
+    margin:0px;
+            padding:0px;
+            
+        }
+#first{
+        
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#main{
+    width:100%;
+    height:50vh;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.02) ;
+    z-index: 1;
+}
+.logo img{
+    height:80px;
+}
+.menu{
+    list-style:none;
+    display:flex;
+}
+.menu li a{
+    height:40px;
+    line-height: 43px;
+    margin:3px;
+    padding:0px 22px;
+    display:flex;
+    font-size:0.8em;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing: 1px;
+    color:grey;
+}
+a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color:#23cdaf ;
+    color:white;
+    box-shadow:5px 10px 30px rgba(24,139,119,0.2)  ;
+    transition:all ease 0.2s;
+
+}
+.content{
+    display: flex;
+    width:90%;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    left:50%;
+    right:50%;
+    transform:translate(-50%,-98%)
+}
+.main-text{
+    width:500px;
+}
+.main-text h1{
+    font-size: 1.5em;
+    color:rgb(223, 226, 218);
+    /* margin:0px 0px 10 px 0 px; */
+    /* line-height: 60px; */
+}
+.main-text p{
+    color:yellow;
+    font-size:1em;
+    font-weight: 1000;
+}
+.second head{
+    text-align: center;
+    text-shadow: 2px 2px !important;
+
+}
+#second{
+    text-align: center;
+    font-size: 1.3em;
+    margin:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color:whitesmoke;
+    color:rgb(126, 30, 126);
+    padding-top: 100px;
+    padding:10px;
+
+    }
+
+
+.second-image{
+    height:80px;
+    width:80px;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.third-image{
+    height:400px;
+    width:300px;
+}
+.zippy-col{
+    flex-basis: 31%;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.project-col{
+    flex-basis: 31%;
+padding: 0px 0px;
+}
+#third{
+    background-color:rgb(110, 22, 110);
+
+}
+#fourth{
+    background-color:whitesmoke;
+
+}
+#fifth{
+    background-color:rgb(110, 22, 110);
+
+}
+.vidrow{
+    display:flex;
+    justify-content: space-between;
+}
+.video-project-col{
+    display:flex;
+    flex-basis: 31%;
+    background: rgb(110, 22, 110);
+    border-radius: 10px;
+    padding: 20px 12px;
+}
+.team{
+    height:225px;
+    width:223.99px;
+}
+#sixth{
+    background-color:whitesmoke;
+
+}
+#seventh{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(110, 22, 110);
+}
+.slider{
+    position: relative;
+    width:55%;
+    overflow:hidden;
+}
+.images{
+    display:flex;
+    width:100%;
+}
+.images img{
+    height:400px;
+    width:200%;
+    transition: all 0.15s ease;
+}
+.dots{
+    display:flex;
+    justify-content: center;
+    margin:5px;
+}
+.dots label{
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+    border:solid #fff 3px;
+    cursor:pointer;
+    transition:all 0.15s ease;
+    margin:5px;
+}
+.dots label:hover{background:#fff;}
+#img1:checked ~ .m1{
+margin-left:0;
+}
+#img2:checked ~ .m1{
+    margin-left:-100%;
+    }
+#img3:checked ~ .m1{
+    margin-left:-200%;
+    }
+    .m1,m2,m3{
+        height:500px;
+        width:700px;
+    }
+    #eighth{
+        
+        min-height:50vh;
+        width:100%;
+        background-image: url(images/image8.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .main-text1{
+        display: flex;
+    width:90%;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    }
+    .main-text1 h1{
+        font-size: 2.5em;
+        color:rgb(19, 20, 16);
+        margin:0px 0px 10 px 0 px; 
+        line-height: 60px;
+    }
+    
+    #eleventh,#tenth{
+        background-color:whitesmoke;
+    
+    }
