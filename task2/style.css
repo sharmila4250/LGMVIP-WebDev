@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  background-image: url("https://kj1bcdn.b-cdn.net/media/48635/149700090_107944547996289_1982328364641895114_n.jpg?format=webp&width=1080&upscale=false");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  font-family: sans-serif;
+}
+button {
+  font-size: 17px;
+  font-weight: 450px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 9px 25px;
+  background: rebeccapurple;
+  border-radius: 30px;
+  transition: all 0.2s ease 0s;
+}
+button:hover {
+  background: rgb(172, 24, 172);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 10%;
+}
+ul {
+  list-style: none;
+}
+
+.brand-name {
+  cursor: pointer;
+  width: 10%;
+  margin-left: 90px;
+}
+img {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+
+.list {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  width:45%;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 364px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  margin-bottom: 80px;
+  background: rebeccapurple;
+}
+.list1 {
+  padding-right: 32px;
+  padding-left: 20px;
+  background: rebeccapurple;
+}
